@@ -24,7 +24,6 @@ jobs:
       env:
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        location: ${{ secrets.location }} 
         key: ${{ secrets.key }} 
       run: |
         python sign_in.py
